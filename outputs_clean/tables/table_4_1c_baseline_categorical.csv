@@ -1,0 +1,26 @@
+Feature,Level,Cleveland,VA Long Beach
+Chest pain type,1.0,23 (7.6%),8 (4.0%)
+Chest pain type,2.0,50 (16.5%),14 (7.0%)
+Chest pain type,3.0,86 (28.4%),47 (23.5%)
+Chest pain type,4.0,144 (47.5%),131 (65.5%)
+Exercise angina,0.0,204 (67.3%),52 (26.0%)
+Exercise angina,1.0,99 (32.7%),95 (47.5%)
+Fasting blood sugar,0.0,258 (85.1%),125 (62.5%)
+Fasting blood sugar,1.0,45 (14.9%),68 (34.0%)
+Heart disease,0.0,164 (54.1%),51 (25.5%)
+Heart disease,1.0,139 (45.9%),149 (74.5%)
+Resting ECG,0.0,151 (49.8%),80 (40.0%)
+Resting ECG,1.0,4 (1.3%),93 (46.5%)
+Resting ECG,2.0,148 (48.8%),27 (13.5%)
+ST slope,1.0,142 (46.9%),16 (8.0%)
+ST slope,2.0,140 (46.2%),53 (26.5%)
+ST slope,3.0,21 (6.9%),29 (14.5%)
+Sex,0.0,97 (32.0%),6 (3.0%)
+Sex,1.0,206 (68.0%),194 (97.0%)
+Thalassemia scan,3.0,166 (54.8%),4 (2.0%)
+Thalassemia scan,6.0,18 (5.9%),8 (4.0%)
+Thalassemia scan,7.0,117 (38.6%),22 (11.0%)
+Vessels (fluoroscopy),0.0,176 (58.1%),2 (1.0%)
+Vessels (fluoroscopy),1.0,65 (21.5%),
+Vessels (fluoroscopy),2.0,38 (12.5%),
+Vessels (fluoroscopy),3.0,20 (6.6%),

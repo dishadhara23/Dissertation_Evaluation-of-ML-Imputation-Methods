@@ -1,0 +1,10 @@
+mechanism,rate,best_reconstruction_NRMSE,best_reconstruction_PFC,best_explanation_SHAP_RMSE,best_explanation_LIME_rho,n_distinct_winners,accuracy_and_stability_agree
+MCAR,0.1,MICE,Mean/Mode,MICE,MICE,2,False
+MCAR,0.2,MICE,Mean/Mode,RF-iterative,RF-iterative,3,False
+MCAR,0.3,MICE,Mean/Mode,RF-iterative,RF-iterative,3,False
+MAR,0.1,MICE,Mean/Mode,Mean/Mode,KNN,3,False
+MAR,0.2,MICE,Mean/Mode,RF-iterative,KNN,4,False
+MAR,0.3,MICE,Mean/Mode,MICE,KNN,3,False
+MNAR,0.1,MICE,KNN,RF-iterative,KNN,3,False
+MNAR,0.2,RF-iterative,RF-iterative,RF-iterative,RF-iterative,1,True
+MNAR,0.3,RF-iterative,RF-iterative,RF-iterative,RF-iterative,1,True

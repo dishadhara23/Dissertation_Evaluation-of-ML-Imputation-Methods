@@ -1,0 +1,10 @@
+Mechanism,Target rate,Realised % (amputated cols),Realised % (all features),Mean complete rows
+MCAR,10%,10.1,8.55,93.2
+MCAR,20%,19.87,16.81,27.0
+MCAR,30%,29.97,25.36,6.4
+MAR,10%,10.1,8.55,177.6
+MAR,20%,19.87,16.81,138.9
+MAR,30%,29.97,25.36,109.0
+MNAR,10%,10.1,8.55,100.2
+MNAR,20%,19.87,16.81,34.6
+MNAR,30%,29.97,25.36,11.2

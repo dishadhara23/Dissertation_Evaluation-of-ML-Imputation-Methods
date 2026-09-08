@@ -1,0 +1,2 @@
+n_folds,n_methods,chi_square,p,kendalls_w
+5,4,0.36,0.9484226059790929,0.024

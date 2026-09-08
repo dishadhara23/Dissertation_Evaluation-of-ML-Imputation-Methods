@@ -1,0 +1,10 @@
+mechanism,rate,shap_rmse_ranking_best_to_worst,shap_rmse_best_method,shap_rmse_best_value,lime_rho_ranking_best_to_worst,lime_rho_best_method,lime_rho_best_value
+MCAR,0.1,MICE < Mean/Mode < KNN < RF-iterative,MICE,0.013873008711289093,MICE > RF-iterative > Mean/Mode > KNN,MICE,0.9418498168498168
+MCAR,0.2,RF-iterative < KNN < MICE < Mean/Mode,RF-iterative,0.02099420399683434,RF-iterative > KNN > MICE > Mean/Mode,RF-iterative,0.9110119047619047
+MCAR,0.3,RF-iterative < KNN < Mean/Mode < MICE,RF-iterative,0.021661077511838895,RF-iterative > KNN > Mean/Mode > MICE,RF-iterative,0.8943108974358974
+MAR,0.1,Mean/Mode < RF-iterative < MICE < KNN,Mean/Mode,0.01530039431210702,KNN > MICE > Mean/Mode > RF-iterative,KNN,0.9375801282051281
+MAR,0.2,RF-iterative < MICE < KNN < Mean/Mode,RF-iterative,0.02222837373358747,KNN > MICE > RF-iterative > Mean/Mode,KNN,0.906353021978022
+MAR,0.3,MICE < Mean/Mode < RF-iterative < KNN,MICE,0.029722460322533076,KNN > MICE > RF-iterative > Mean/Mode,KNN,0.8619734432234432
+MNAR,0.1,RF-iterative < KNN < MICE < Mean/Mode,RF-iterative,0.01662016376839736,KNN > RF-iterative > MICE > Mean/Mode,KNN,0.9352678571428572
+MNAR,0.2,RF-iterative < KNN < MICE < Mean/Mode,RF-iterative,0.026253780019823585,RF-iterative > MICE > KNN > Mean/Mode,RF-iterative,0.893452380952381
+MNAR,0.3,RF-iterative < KNN < Mean/Mode < MICE,RF-iterative,0.03839898050487436,RF-iterative > KNN > MICE > Mean/Mode,RF-iterative,0.815212912087912
